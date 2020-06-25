@@ -144,17 +144,6 @@ pip install .[all]
 ```
 
 
-## Citing
-
-If you use NLP Architect in your research, please use the following citation:
-
-    @misc{izsak_peter_2018_1477518,
-      title        = {NLP Architect by Intel AI Lab},
-      month        = nov,
-      year         = 2018,
-      doi          = {10.5281/zenodo.1477518},
-      url          = {https://doi.org/10.5281/zenodo.1477518}
-    }
 
 ### Note
 
