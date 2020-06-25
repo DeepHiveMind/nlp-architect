@@ -57,36 +57,6 @@ Features:
 
 * Essential utilities for working with NLP models - Text/String pre-processing, IO, data-manipulation, metrics, embeddings.
 
-## Installing NLP Architect
-
-We recommend to install NLP Architect in a new python environment, to use python 3.6+ with up-to-date `pip`, `setuptools` and `h5py`.
-
-### Install using `pip`
-
-Install core library only
-
-```sh
-pip install nlp-architect
-```
-
-### Install from source (Github)
-
-Includes core library, examples, solutions and tutorials:
-
-```sh
-git clone https://github.com/NervanaSystems/nlp-architect.git
-cd nlp-architect
-pip install -e .  # install in developer mode
-```
-
-### Running Examples and Solutions
-
-To run provided examples and solutions please install the library with `[all]` flag which will install extra packages required. (requires installation from source)
-
-```sh
-pip install .[all]
-```
-
 
 ## Models
 
@@ -143,12 +113,36 @@ The main design guidelines are:
 * Pythonic API for using models for inference
 * Extensive model documentation and tutorials
 
-### Note
+## Installing NLP Architect
 
-NLP Architect is an active space of research and development; Throughout future
-releases new models, solutions, topologies and framework additions and changes
-will be made. We aim to make sure all models run with Python 3.6+. We
-encourage researchers and developers to contribute their work into the library.
+We recommend to install NLP Architect in a new python environment, to use python 3.6+ with up-to-date `pip`, `setuptools` and `h5py`.
+
+### Install using `pip`
+
+Install core library only
+
+```sh
+pip install nlp-architect
+```
+
+### Install from source (Github)
+
+Includes core library, examples, solutions and tutorials:
+
+```sh
+git clone https://github.com/NervanaSystems/nlp-architect.git
+cd nlp-architect
+pip install -e .  # install in developer mode
+```
+
+### Running Examples and Solutions
+
+To run provided examples and solutions please install the library with `[all]` flag which will install extra packages required. (requires installation from source)
+
+```sh
+pip install .[all]
+```
+
 
 ## Citing
 
@@ -162,19 +156,12 @@ If you use NLP Architect in your research, please use the following citation:
       url          = {https://doi.org/10.5281/zenodo.1477518}
     }
 
-## Disclaimer
+### Note
 
-The NLP Architect is released as reference code for research purposes. It is
-not an official Intel product, and the level of quality and support may not be
-as expected from an official product. NLP Architect is intended to be used
-locally and has not been designed, developed or evaluated for production
-usage or web-deployment. Additional algorithms and environments are planned
-to be added to the framework. Feedback and contributions from the open source
-and NLP research communities are more than welcome.
-
-## Contact
-Contact the NLP Architect development team through Github issues or
-email: nlp_architect@intel.com
+NLP Architect is an active space of research and development; Throughout future
+releases new models, solutions, topologies and framework additions and changes
+will be made. We aim to make sure all models run with Python 3.6+. We
+encourage researchers and developers to contribute their work into the library.
 
 [documentation]:http://nlp_architect.nervanasys.com
 [TensorFlow]:https://www.tensorflow.org/
